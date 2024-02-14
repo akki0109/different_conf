@@ -1,0 +1,12 @@
+chmod +x xampp-linux-x64-5.6.20-0-installer.run
+
+
+sudo ./xampp-linux-x64-5.6.20-0-installer.run
+
+
+sudo chown -R $User:$User /opt/lampp/htdocs
+
+
+sudo chmod 755 -R /opt/lampp/htdocs
+
+
